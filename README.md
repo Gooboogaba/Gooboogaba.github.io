@@ -1,2 +1,2 @@
 # Gooboogaba.github.io
-this is a test of GitHub pages
+is a Bsos (Browser simulated operating system) made by me called GooBoogaba, pronounced GooBoo-GaBa
