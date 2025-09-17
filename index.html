@@ -261,9 +261,10 @@ makeMoveable();
 4:reshow
 */
   function Message(Type, newContent, newTitle) {
-	  //Dont forget let :)
-  let errorBox = document.getElementById('errorBox')
-  let content = document.getElementById('Padding')
+	  //Dont forget let and classes not id:)
+  let errorBox = document.getElementsByClassName('errorBox')
+	  //padding not Padding just copy id names
+  let content = document.getElementsByClassName('padding')
 	  if (Type == 0) {
 		errorBox.setAttribute('style', 'display: none;')
 	  } else if (Type == 1) {
