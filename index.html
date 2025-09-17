@@ -69,7 +69,7 @@
 <body>
   <div id="desktop">
   <button onclick="createWindow(`New Window ${numOfWin}`,'Content')">New Window --</button>
-	<button onclick="message(`1`,'Error','Error- 100')">
+	<button onclick=`Message('1','Error','Error- 100')`>
 
   <div id="windows">
 	<div class="errorBox" id="errorBox">
@@ -268,7 +268,7 @@ makeMoveable();
 	  } else if (Type == 1) {
 		errorBox.setAttribute('style', 'display: show;')
 		content.innerHTML =  Content
-		document.getElementById("error-header").innerHTML = Title;
+		document.getElementById("error-header").innerHTML = Title
 	  }
   }
   </script>
