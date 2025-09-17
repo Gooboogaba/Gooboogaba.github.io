@@ -266,9 +266,8 @@ makeMoveable();
 		errorBox.setAttribute('style', 'display: none;')
 	  } else if (Type == 1) {
 		errorBox.setAttribute('style', 'display: show;')
-		content.innerHTML = `
-		<img src=""></img>
-		` + Content
+		content.innerHTML =  Content
+		document.getElementById("error-header").innerHTML = Title;
 	  }
   }
   </script>
