@@ -260,15 +260,15 @@ makeMoveable();
 3:info
 4:reshow
 */
-  function Message(Type, Content, Title) {
+  function Message(Type, newContent, newTitle) {
   errorBox = document.getElementById('errorBox')
   content = document.getElementById('Padding')
 	  if (Type == 0) {
 		errorBox.setAttribute('style', 'display: none;')
 	  } else if (Type == 1) {
 		errorBox.setAttribute('style', 'display: show;')
-		content.innerHTML =  Content
-		document.getElementById("error-header").innerHTML = Title
+		content.innerHTML =  newContent
+		document.getElementById("error-header").innerHTML = newTitle
 	  }
   }
   </script>
