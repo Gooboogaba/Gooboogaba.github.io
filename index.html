@@ -261,12 +261,13 @@ makeMoveable();
 4:reshow
 */
   function Message(Type, newContent, newTitle) {
-  errorBox = document.getElementById('errorBox')
-  content = document.getElementById('Padding')
+	  //Dont forget let :)
+  let errorBox = document.getElementById('errorBox')
+  let content = document.getElementById('Padding')
 	  if (Type == 0) {
 		errorBox.setAttribute('style', 'display: none;')
 	  } else if (Type == 1) {
-		errorBox.setAttribute('style', 'display: show;')
+		errorBox.setAttribute('style', 'display: block;')
 		content.innerHTML =  newContent
 		document.getElementById("error-header").innerHTML = newTitle
 	  }
