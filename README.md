@@ -1,2 +1,1 @@
-# Gooboogaba.github.io
-I have no idea
+This repository does not exist here any more.
